@@ -1,0 +1,35 @@
+PRACTICE_00
+
+1. Implement a method named farm that will ask the user to enter the length and width of the farm in feet.
+ The method will then print to the screen the number of feet of fence to close in the farm.
+
+
+2. Implement a method named temp that will ask the user to enter the temperature in Fahrenheit degrees. The method will print to the screen both the Fahrenheit temperature and the equivalent Celsius temperature.
+
+
+3. Implement a method named numbers. The user will enter 2 numbers between 1 and 49. The method will print out the sum of the 2 numbers in the string format shown:
+
+If the numbers are 23 and 45:    the output will be:  	sum is:			68		
+								first digit is 		6
+								second digit is 	8
+
+4. Implement a method named hypot	 that will ask the user to enter the height and the base of a right triangle. The method will print out the hypotenuse.
+
+
+5. Implement a method named time that will ask the user to enter the total number of seconds. The method will print the number of hours, minutes and seconds.
+
+If the numbers of seconds entered is: 4487:    the output will be:	1 hour
+									14 minutes
+									37 seconds
+
+
+
+
+
+
+
+
+Put these methods into a class named “MyMethods” class (see my website)
+
+Write an application named RunMyMethods that will invoke (call) each of these methods in the order given.
+
