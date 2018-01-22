@@ -1,0 +1,43 @@
+PRACTICE 03
+
+
+1. Implement a method named surface that accepts 3 integer parameters named width, length, and depth. It 
+    will return the total surface area (6 sides) of the rectangular box it represents.
+
+2. Implement a method named triple that will accept one string parameter named alpha. It will return the first 
+    letter tripled.
+
+    Example: if the string is jackson then the method will return jjj.
+
+3. Implement a method named area that will accept 2 integer parameters named base and height. It will return 
+    the area of the right triangle represented by those parameters.
+
+4. Implement a method named rightTriangle that accepts 2 double parameters named sideA and hypotenuseB. 
+    The method will return the length of the third side. 
+
+5. Implement a method named cutString that accepts 1 String parameter named original. The method will 
+    return the string with the first and last letters removed.
+
+    Example: if the string is stardom then the method will return tardo.
+
+6. Implement a method named temp that accepts one integer parameter named celsius. The method will return 
+    the fahrenheit temperature that is equivalent to the celsius temperature it received.
+
+7. Implement a method named quintSum that accepts 2 integer parameters named first and last. The method 
+    will return the sum of the parameters quintupled.
+
+8. Implement a method named quotes that accepts 2 String parameters named first and last. The method 
+    will return the 2 strings concatenated enclosed in a set of double quotes.
+
+    Example: if the strings are some and time then the method will return “sometime” (quotes included).
+
+
+NOTE
+
+The student needs to realize that if a method accepts (takes in) parameters that are needed to perform the calculation, then there is NO INTERACTION with the user by using the Scanner class. This is a common error and needs to be avoided. The methods above are all based on accepting parameters when they are invoked (called) by another method. None of them should be using the Scanner class.
+
+You should put all of these methods into your ‘MyMethods’ class and then write an application that will instantiate an instance (object) of that class to use the above methods. It should be obvious that you will need to get the parameters from either the user or through some other means (random number generator) so that when you call (invoke) the method you have the actual parameters to pass along to the method being called.
+
+If you do generate numbers have the application print them out so that you know what was generated and given to the method so that the return values can be checked for correctness. You will need to print out the values that were returned to the application to make sure that the method worked.
+
+
