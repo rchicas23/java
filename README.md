@@ -1,2 +1,3 @@
 # java
-These are java assignments i completed through out school
+Object Oriented Programming.
+These are java assignments I completed through out college.
