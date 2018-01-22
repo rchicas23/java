@@ -1,0 +1,42 @@
+PRACTICE_01 
+
+1. Implement a method named codename that will ask the user to enter their last name. 
+The method will then print to the screen:	first letter is: 
+						between letters:
+last letter is:
+						
+If the name is Johnson the output will be: 	first letter is:  J
+						between letters: ohnso
+last letter is:  n
+
+
+2. Implement a method named middle that will ask the user to enter a word with an odd number of letters.
+The method will print to the screen the letter that is exactly in the middle 
+
+If the word is extreme the output will be:   r	
+
+
+3. Implement a method named second that will ask the user to enter a 7 letter word. The method will print to the screen the second letter and the next to last letter of the word.
+
+If the word is extreme the output will be:  xm
+
+
+4. Implement a method named letter that will ask the user to enter a word of 2 letters. The first letter should be lower than the second (alphabetical order) The method will print to the screen the letter (of the alphabet) that is midway between the first and the last letters.
+
+If the word is ‘am’ then the output should be: g
+
+
+5. Implement a method named reverse that will ask the user to enter 3 words. The method will print the three words in reverse order.
+
+If the words were “name that tune” the output would be: tune that name 
+
+
+
+
+
+
+
+Put these methods into a class named “MyMethods” class (see my website)
+
+Write an application named RunMyMethods that will invoke (call) each of these methods in the order given.
+
