@@ -1,0 +1,14 @@
+
+public class RunMyMethods {
+
+	public static void main(String[] args) {
+		MyMethods mm = new MyMethods();
+		
+		mm.codename();
+		mm.middle();
+		mm.second();
+		mm.letter();
+		mm.reverse();
+	}
+
+}
