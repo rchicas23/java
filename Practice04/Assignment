@@ -1,0 +1,43 @@
+PRACTICE  4 SELECTION
+
+0) Given the following:	int a = 5, b = 6, c = 7, d = 8;		
+boolean flag  = a == b - 1; 
+    
+Evaluate					true or false
+	1.  flag && !flag || b != d
+	2.  flag && b >= a && c > d
+	3.  !flag || flag || c == a + 2
+	4.  true && false == false || true
+	5.  true || false == flag || !flag
+
+1) Implement a method named isBig that will accept one string parameter named alpha. It will return true only if the length of the string is greater than 6.
+
+2) Implement a method named oddEven that takes one String parameter named ‘message’. The method will return the middle character if the string has an odd length, or the first and last characters if the string has an even length.	Example: If message is “tubular” return  u	--------	If message is “boxing” return bg
+
+3) Implement a method named looks that accepts 2 integer parameters named width, length  It will return the
+string “skinny” if the length is more than twice the width. If the width is more than twice the length, it will return the string “fat”. If they are the same it will return the string “square”. 
+
+4) Implement a method named inRange that accepts one integer parameter named original. The method will     return the true only if the number is in the range of 1 – 100 inclusive.
+
+5) Implement a method named greater that accepts 2 integer parameters named sideA and sideB. The method 
+will return true only if sideA is greater than sideB. 
+
+6) Implement a method named outlier that will generate a random number from 1 – 30. It will return true if  
+the number is less than 10 or greater than 20.
+
+7) Implement a method named numBall that takes two integer parameters named num1 and num2. If both integers are odd return -1. If both integers are even, return 1. Otherwise return 0.
+
+8) Implement a method named positive. The method accepts 3 integer parameters named:  alfa, beta, gama.
+The method returns the number of non-negative integers it received.
+
+9) Implement a method named bigNum that takes three integer parameters named ‘first’, ‘mid’, and ‘last’.
+The method will return the largest of the three integers. 	(all 3 have different values)
+
+10) Implement a method named posNeg that will generate 1000 numbers in the range of -5 to +5. The method will print to the screen the number of negative integers, positive integers, and zeros that were generated.
+
+11) Implement a method named isDigit that will accept one char parameter named letter and return true if the char is a digit. (no Ascii table needed)
+
+12) Implement a method named isLower that will accept one char parameter named letter and return true if the char is a lowercase letter. (no Ascii table needed)
+
+
+
