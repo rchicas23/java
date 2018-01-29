@@ -16,12 +16,15 @@ The method will print to the screen the letter that is exactly in the middle
 If the word is extreme the output will be:   r	
 
 
-3. Implement a method named second that will ask the user to enter a 7 letter word. The method will print to the screen the second letter and the next to last letter of the word.
+3. Implement a method named second that will ask the user to enter a 7 letter word. The method will print to the screen the second 
+letter and the next to last letter of the word.
 
 If the word is extreme the output will be:  xm
 
 
-4. Implement a method named letter that will ask the user to enter a word of 2 letters. The first letter should be lower than the second (alphabetical order) The method will print to the screen the letter (of the alphabet) that is midway between the first and the last letters.
+4. Implement a method named letter that will ask the user to enter a word of 2 letters. The first letter should be lower than the
+second (alphabetical order) The method will print to the screen the letter (of the alphabet) that is midway between the first and 
+the last letters.
 
 If the word is ‘am’ then the output should be: g
 
