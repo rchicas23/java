@@ -9,25 +9,33 @@ Implement the following methods which all take an integer array named list as a 
 
 2. The method named setup that will initialize all of the odd elements to -1 and set the even elements to their index number
 
-3. The method named reverse will reverse the order of the array by swapping the last element with the first, the next to last with the second, and so on.
+3. The method named reverse will reverse the order of the array by swapping the last element with the first, the next to last 
+with the second, and so on.
 
-4. The method named oddEven will count the number of odd integers, the number of even integers, and the number of zeros. It will print to the screen the result for all three.
+4. The method named oddEven will count the number of odd integers, the number of even integers, and the number of zeros. It 
+will print to the screen the result for all three.
 
-5. The method named direction will determine if the array elements are in ascending order, descending order, or neither. The method will return a String (one of the 3 shown):	up_order	down_order	   no_order	   
+5. The method named direction will determine if the array elements are in ascending order, descending order, or neither. The 
+method will return a String (one of the 3 shown):	up_order	down_order	   no_order	   
 
 6. The method named average will return a double equal to the average of all of the elements in the array.
 
-7.  The method named posNeg will count the number of positive integers, the number of negative integers, and the number of zeros. It will print to the screen the result for all three.
+7.  The method named posNeg will count the number of positive integers, the number of negative integers, and the number of zeros. 
+It will print to the screen the result for all three.
 
-8. The method named pairs that will count the number of pairs (2 identical adjacent numbers) that are in the array. Three in succession constitute only 1 pair. Four in succession will be 2 pairs.
+8. The method named pairs that will count the number of pairs (2 identical adjacent numbers) that are in the array. Three in 
+succession constitute only 1 pair. Four in succession will be 2 pairs.
 
-9. The method named fibo will initialize the array to the Fibonacci sequence. This sequence starts with 1 and 2 as the first 2 elements and each element thereafter is the sum of the previous two elements. (1, 2, 3, 5, 8, 13…)
+9. The method named fibo will initialize the array to the Fibonacci sequence. This sequence starts with 1 and 2 as the first 
+2 elements and each element thereafter is the sum of the previous two elements. (1, 2, 3, 5, 8, 13…)
 
 10. The method named delete will remove the smallest element of the array.
 
 11. The method named insert will put in one element (value = 0) right after the largest element of the array.
 
-12. The method named group will find the sum of each group of 5 elements beginning from the start of the array. If the last group does not have five elements it will not be part of the calculation. The sum of each group will be put into a separate array named sum. 
+12. The method named group will find the sum of each group of 5 elements beginning from the start of the array. If the last 
+group does not have five elements it will not be part of the calculation. The sum of each group will be put into a separate 
+array named sum. 
 
 13. Implement a method that will accept a String parameter and return the number of pairs (2 identical adjacent 
     letters) that are in the string. The string “balloon” has 2 pair. The string “abcccde” has only 1 pair. The string 
@@ -36,7 +44,8 @@ Implement the following methods which all take an integer array named list as a 
 
 Implement an Application named RunArray that uses the ArrayMethods class above to run all of the methods shown. 
 
-Create an array in the main method named digits by using an initializer list with 10 - 15 elements to test your methods where values are needed. Otherwise create an array between 50 and 100 elements. 
+Create an array in the main method named digits by using an initializer list with 10 - 15 elements to test your methods where 
+values are needed. Otherwise create an array between 50 and 100 elements. 
 
 
 PART TWO
@@ -52,22 +61,32 @@ and returns a one dimensional array where each element is the sum of the columns
 3. A method named vowels that accepts a String array named alpha. The method will return the index of the
 String that contains the most vowels. If there is a tie anyone will be good.
 
-4. A method named count that accepts 2 parameters, an array of integers named array and an integer named min. The method will return the number of elements that are greater than ‘min’.
+4. A method named count that accepts 2 parameters, an array of integers named array and an integer named min. The method will 
+return the number of elements that are greater than ‘min’.
 
-5. A method named order that accepts an integer array named digits. The method will print to the screen the both the maximum and minimum values of the array.
+5. A method named order that accepts an integer array named digits. The method will print to the screen the both the maximum and
+minimum values of the array.
 
-6. A method named summit that accepts 2 integer arrays named gamma and delta. If the arrays are the same size the method will return an array of the sum of the corresponding elements. If they are of different sizes the method will return an array of 10 elements where all of the elements are set to -1.
+6. A method named summit that accepts 2 integer arrays named gamma and delta. If the arrays are the same size the method will return 
+an array of the sum of the corresponding elements. If they are of different sizes the method will return an array of 10 elements where 
+all of the elements are set to -1.
 
-7. A method named border that accepts a two dimensional array of chars named array as a parameter. It initializes all of the elements of the array to ‘x’ except for the perimeter (first and last column, and first and last row) that is initialized to ‘o’.
+7. A method named border that accepts a two dimensional array of chars named array as a parameter. It initializes all of the elements 
+of the array to ‘x’ except for the perimeter (first and last column, and first and last row) that is initialized to ‘o’.
 
 PART THREE
 
-8. Implement a method named pieces that accepts an array of integers named array. The method will sum each group of 5 integers in the array and place the sum into another array named result. The method will return the new array. If the last group in the array does not contain a full group of 5 it is not to be included. 
-Ex: if the array consists of : {3, 6, 3, 2, 8, 1, 0, 4, 9, 1, 0, 1, 1, 6, 7, 3, 8, l, 2}there are 3 groups of 5 and 4 remaining. The new array would be of size 3 and the sum of the last 4 digits would not be included.
+8. Implement a method named pieces that accepts an array of integers named array. The method will sum each group of 5 integers in the
+array and place the sum into another array named result. The method will return the new array. If the last group in the array does not
+contain a full group of 5 it is not to be included. 
+Ex: if the array consists of : {3, 6, 3, 2, 8, 1, 0, 4, 9, 1, 0, 1, 1, 6, 7, 3, 8, l, 2}there are 3 groups of 5 and 4 remaining. The 
+new array would be of size 3 and the sum of the last 4 digits would not be included.
 
-9. Implement a method named init that accepts a char array named alpha. The method will initialize the array to the alphabet. If the array is greater than 26 elements, the additional elements will all be initialized to the dollar sign.
+9. Implement a method named init that accepts a char array named alpha. The method will initialize the array to the alphabet. If the 
+array is greater than 26 elements, the additional elements will all be initialized to the dollar sign.
 
-10. Given the following attributes of the class named Geometric, implement the equals method that accepts a Geometric parameter named geo and returns true if the two objects are identical. They are identical if each attribute is the same in both objects.
+10. Given the following attributes of the class named Geometric, implement the equals method that accepts a Geometric parameter named 
+geo and returns true if the two objects are identical. They are identical if each attribute is the same in both objects.
 
 				public class Geometric{
 				    int side;
