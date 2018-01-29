@@ -34,10 +34,18 @@ PRACTICE 03
 
 NOTE
 
-The student needs to realize that if a method accepts (takes in) parameters that are needed to perform the calculation, then there is NO INTERACTION with the user by using the Scanner class. This is a common error and needs to be avoided. The methods above are all based on accepting parameters when they are invoked (called) by another method. None of them should be using the Scanner class.
+The student needs to realize that if a method accepts (takes in) parameters that are needed to perform the calculation, 
+then there is NO INTERACTION with the user by using the Scanner class. This is a common error and needs to be avoided. 
+The methods above are all based on accepting parameters when they are invoked (called) by another method. None of them 
+should be using the Scanner class.
 
-You should put all of these methods into your ‘MyMethods’ class and then write an application that will instantiate an instance (object) of that class to use the above methods. It should be obvious that you will need to get the parameters from either the user or through some other means (random number generator) so that when you call (invoke) the method you have the actual parameters to pass along to the method being called.
+You should put all of these methods into your ‘MyMethods’ class and then write an application that will instantiate an instance 
+(object) of that class to use the above methods. It should be obvious that you will need to get the parameters from either the 
+user or through some other means (random number generator) so that when you call (invoke) the method you have the actual parameters 
+to pass along to the method being called.
 
-If you do generate numbers have the application print them out so that you know what was generated and given to the method so that the return values can be checked for correctness. You will need to print out the values that were returned to the application to make sure that the method worked.
+If you do generate numbers have the application print them out so that you know what was generated and given to the method so that 
+the return values can be checked for correctness. You will need to print out the values that were returned to the application to make
+sure that the method worked.
 
 
