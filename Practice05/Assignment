@@ -13,7 +13,8 @@ Example output:	positive: <number> 	negative: <number>	zeros: <number>
 
 
 3) Implement a method named alpha that will generate 50 random characters. The only valid characters to use are the set {a, b, c} 
-(3 different chars). The method will print to the screen the randomly generated characters on one line (space separated) and will also return the number of times that the middle character (b) was generated.
+(3 different chars). The method will print to the screen the randomly generated characters on one line (space separated) and will
+also return the number of times that the middle character (b) was generated.
 
 
 4) Implement a method named reverse that takes one String parameter named fragment.
