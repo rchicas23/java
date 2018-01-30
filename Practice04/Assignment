@@ -45,7 +45,8 @@ screen the number of negative integers, positive integers, and zeros that were g
 11) Implement a method named isDigit that will accept one char parameter named letter and return true if the char is a digit.
 (no Ascii table needed)
 
-12) Implement a method named isLower that will accept one char parameter named letter and return true if the char is a lowercase letter. (no Ascii table needed)
+12) Implement a method named isLower that will accept one char parameter named letter and return true if the char is a lowercase 
+letter. (no Ascii table needed)
 
 
 
