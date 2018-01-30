@@ -7,11 +7,13 @@ PRACTICE 05
  “even > 50”     “odd >50”     “even < 50”     “odd <50”     “50”
 
 
-2) Implement a method named posNeg that generates 1000 random integers. The range of the numbers should be from -5 to +5 inclusive. The method will print to the screen the number of positive values, the number of negative values and the number of zeros generated. 
+2) Implement a method named posNeg that generates 1000 random integers. The range of the numbers should be from -5 to +5 inclusive.
+The method will print to the screen the number of positive values, the number of negative values and the number of zeros generated. 
 Example output:	positive: <number> 	negative: <number>	zeros: <number>
 
 
-3) Implement a method named alpha that will generate 50 random characters. The only valid characters to use are the set {a, b, c} (3 different chars). The method will print to the screen the randomly generated characters on one line (space separated) and will also return the number of times that the middle character (b) was generated.
+3) Implement a method named alpha that will generate 50 random characters. The only valid characters to use are the set {a, b, c} 
+(3 different chars). The method will print to the screen the randomly generated characters on one line (space separated) and will also return the number of times that the middle character (b) was generated.
 
 
 4) Implement a method named reverse that takes one String parameter named fragment.
