@@ -27,7 +27,7 @@ public class ReverseIntArray {
 		}
 		
 		//puts in reverse order
-		for(int i=0; i< MAX/2; i++)
+		for(int i=0; i<= MAX/2; i++)
 		{
 			int temp = list[i];
 			list[i] = list[MAX-1-i];
