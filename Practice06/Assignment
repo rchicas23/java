@@ -1,6 +1,6 @@
 PRACTICE 6 - ARRAYS 
 
-PART ONE	     
+**PART ONE**	     
 
 Create a class named ArrayMethods. No attributes. No Constructor (System will supply it).
 Implement the following methods which all take an integer array named list as a parameter:
@@ -48,7 +48,7 @@ Create an array in the main method named digits by using an initializer list wit
 values are needed. Otherwise create an array between 50 and 100 elements. 
 
 
-PART TWO
+**PART TWO**
 
 1. Implement a public method named initialize. It takes a two dimensional square array of integers named 
 array as a parameter. It initializes all of the elements of the array to the sum of their indices except for the 
@@ -74,7 +74,7 @@ all of the elements are set to -1.
 7. A method named border that accepts a two dimensional array of chars named array as a parameter. It initializes all of the elements 
 of the array to ‘x’ except for the perimeter (first and last column, and first and last row) that is initialized to ‘o’.
 
-PART THREE
+**PART THREE**
 
 8. Implement a method named pieces that accepts an array of integers named array. The method will sum each group of 5 integers in the
 array and place the sum into another array named result. The method will return the new array. If the last group in the array does not
