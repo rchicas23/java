@@ -73,20 +73,3 @@ all of the elements are set to -1.
 
 7. A method named border that accepts a two dimensional array of chars named array as a parameter. It initializes all of the elements 
 of the array to ‘x’ except for the perimeter (first and last column, and first and last row) that is initialized to ‘o’.
-
-**PART THREE**
-8. Implement a method named init that accepts a char array named alpha. The method will initialize the array to the alphabet. If the 
-array is greater than 26 elements, the additional elements will all be initialized to the dollar sign.
-
-9. Given the following attributes of the class named Geometric, implement the equals method that accepts a Geometric parameter named 
-geo and returns true if the two objects are identical. They are identical if each attribute is the same in both objects.
-
-				public class Geometric{
-				    int side;
-				    char top;	
-				    String name;	
-			
-				    public boolean equals (        )
-				    {
-				    }
- 				}
