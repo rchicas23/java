@@ -75,17 +75,10 @@ all of the elements are set to -1.
 of the array to ‘x’ except for the perimeter (first and last column, and first and last row) that is initialized to ‘o’.
 
 **PART THREE**
-
-8. Implement a method named pieces that accepts an array of integers named array. The method will sum each group of 5 integers in the
-array and place the sum into another array named result. The method will return the new array. If the last group in the array does not
-contain a full group of 5 it is not to be included. 
-Ex: if the array consists of : {3, 6, 3, 2, 8, 1, 0, 4, 9, 1, 0, 1, 1, 6, 7, 3, 8, l, 2}there are 3 groups of 5 and 4 remaining. The 
-new array would be of size 3 and the sum of the last 4 digits would not be included.
-
-9. Implement a method named init that accepts a char array named alpha. The method will initialize the array to the alphabet. If the 
+8. Implement a method named init that accepts a char array named alpha. The method will initialize the array to the alphabet. If the 
 array is greater than 26 elements, the additional elements will all be initialized to the dollar sign.
 
-10. Given the following attributes of the class named Geometric, implement the equals method that accepts a Geometric parameter named 
+9. Given the following attributes of the class named Geometric, implement the equals method that accepts a Geometric parameter named 
 geo and returns true if the two objects are identical. They are identical if each attribute is the same in both objects.
 
 				public class Geometric{
